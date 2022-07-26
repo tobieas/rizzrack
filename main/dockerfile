@@ -1,5 +1,0 @@
-FROM centos:7
-RUN yum -y install java-11-openjdk.x86_64 \
-    && mkdir /cicd && cd cicd && mkdir git && mkdir java \
-    && wget https://downloads.gradle-dn.com/distributions/gradle-7.4.2-bin.zip \
-    && unzip gradle-7.4.2-bin.zip
